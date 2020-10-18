@@ -4,46 +4,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Always In Motion</title>
 </head>
 <body>
-    <article class="container">   
-        <header>
-            <div class="header">
-            <a href="index.html">
-                <h2>AIM</h2>
-                <h4>Always In Motion</h4>
-            </a>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <a href="/" class="navbar-brand">AIM</a>
+            <ul class="navbar-nav">
+                <li class="active nav-item mr-2"><a href="/" class="nav-link">About us</a></li>
+                <li class="nav-item mr-2"><a href="/work" class="nav-link">Our work</a></li>
+                <li class="nav-item mr-2"><a href="/contact" class="nav-link">Contact us</a></li>
+            </ul>
+    </nav>
+    <div class="container bg-container mt-5">   
+        <div class="row">
+            <div class="col-12">
+                <section id="dance-outer">
+                    <div id="dance-image"></div> 
+                    <div id="cover-text">
+                    <h1>Always in motion</h1>
+                    </div>             
+                </section>
             </div>
-            <nav>
-                <ul id="menu">    
-                    <li>
-                    <a href="index.html">About us</a>
-                    </li>
-                    <li>
-                    <a href="#">Our work</a>
-                    </li>
-                    <li>
-                    <a href="#">Contact us</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="image">
-        image and text overlay in here 
-        </section>
+        </div>
+        <hr>
+        <!---------Info-->
+        <div class="container info-container my-5"></div>
         <section class="info">
-        who we are text in here
+            <div class="row">
+                <div class="col-2 col-10">
+                <h2 class="text-uppercase"><strong>Who we are</strong></h2>
+                <p class="lead">We are a Christian ministry currently based in Sweden that travel worldwide holding dance and drama workshops for churches and youth organisations. We believe that as Christians we should always remain in motion in what God wants us to do. We’ve all been given gifts and we as a ministry want to help utilise young people in the creative gifts that God has given them. </p>
+                </div>
+            </div>
         </section>
-        <section class="quotes">
-        what others say carousel in here
+        <!---------Info-->
+        <hr>
+        <!---------Our focus-->
+        <div class="container focus-container my-5">
+        <section id="our-focus">
+            <div class="row">
+                <div class="col-12">  
+                    <h1 class="text-title"><strong>Our focus:</strong></h1>
+                    <div id="left-about">
+                        <div class="left-about-heading">
+                        <h2>Dance and drama workshops</h2>
+                        <p>loremipsum</p>
+                        <h2>Performances</h2>
+                        <p>loremipsum</p>
+                        </div>
+                    </div>
+                    <div id="right-about">
+                        <div class="right-about-heading">
+                        <h2>Teaching</h2>
+                        <p> What the Bible says about it</p>
+                        <h2>Dance classes</h2>
+                        <p>We offer recurring dance classes to the are where we are based</p>
+                        </div>
+                    </div>
+                    <div id="center-about">Center</div>
+                </div>
+            </div>
         </section>
+        </div>
+        <!---------Quotes-->
+        <hr>
         <footer>
         social links here
         </footer>
-    </article>
+    </div>
+    </div>
 </body>
 </html>
