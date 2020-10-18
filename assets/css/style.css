@@ -118,7 +118,7 @@ h4 {
     float: right;
 }
 
-#center-text {
+#center-about {
     width: 33%;
     margin: 0 auto;
 }
@@ -139,3 +139,29 @@ h4 {
     margin-bottom: 50px;
 }
 
+.right-about-heading h2 p {
+    text-align: right;
+}
+
+.text-title {
+    margin: 10 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("../images/eye-focus.jpeg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
