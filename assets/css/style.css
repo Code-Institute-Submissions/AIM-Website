@@ -124,7 +124,7 @@ h4 {
 }
 
 .left-about-heading {
-    width: 50%;
+    width: 80%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -132,14 +132,18 @@ h4 {
 }
 
 .right-about-heading {
-    width: 50%;
+    width: 80%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 p {
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
     text-align: right;
 }
 
