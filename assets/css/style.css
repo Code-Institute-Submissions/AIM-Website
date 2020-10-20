@@ -261,6 +261,18 @@ p .blocktext {
     border-radius: 50%;
 }
 
+/*.........................................Contact page*/
+
+.contact-heading {
+	color: #fff;
+	text-align: center;
+	font-family: "Exo", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	position: relative;
+	margin-top: 70px;
+}
+
 /*.........................................Footer*/
 
 footer {

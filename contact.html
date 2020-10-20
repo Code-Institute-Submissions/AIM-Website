@@ -25,67 +25,49 @@
             </div>
         </nav>
     </div>
-    
-    <div class="background">
-    <div class="container-fluid bg-container mt-5">   
-        <div class="row">
-            <div class="col-12">
-                <section id="dance-outer">
-                    <div id="dance-image"></div> 
-                    <div id="cover-text">
-                    <h1>Always in motion</h1>
-                    </div>             
-                </section>
-            </div>
-        </div>
-        <!---------Info-->
-        <div class="container-fluid info-container">
-        <section class="info">
-            <div class="row">
-                <div class="col-2 col-10">
-                    <h2 class="col-2 text-uppercase"><strong>Who we are</strong></h2>
-                    <p class="col-10 blocktext">We are a Christian ministry currently based in Sweden that travel worldwide holding dance and drama workshops for churches and youth organisations. We believe that as Christians we should always remain in motion in what God wants us to do. We’ve all been given gifts and we as a ministry want to help utilise young people in the creative gifts that God has given them. </p>
+    <section class="container-fluid">
+        <div class="row bg-color-contact-section">
+            <div class="col">
+                <h3 class="contact-heading text-center">Get In Touch!</h3>
+                <hr class="block-divider block-divider--orange">
+
+                <h5 class="text-center">Contact Me!</h5>
+
+                <div class="center-form text-center">
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                    <!-- Subject -->
+                    <label>Subject</label>
+                    <select class="browser-default custom-select mb-4">
+                        <option value="" disabled>Choose option</option>
+                        <option value="1" selected>Feedback</option>
+                        <option value="2">Report a bug</option>
+                        <option value="3">Request Colaboration</option>
+                        <option value="4">Job Prospect</option>
+                        <option value="5">Other</option>
+                    </select>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+                    </div>
+
+                    <!-- Copy -->
+                    <div class="custom-control custom-checkbox mb-4">
+                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+                    </div>
+
+                    <!-- Send button -->
+                    <button class="btn btn-lg btn--cta btn--red" type="submit">Send</button>
                 </div>
             </div>
-        </section>
         </div>
-        <!---------Info-->
-    
-        <!---------Our focus-->
-        <div class="container-fluid focus-container my-5">
-        <section id="our-focus">
-            <div class="row">
-                <div class="col-12">  
-                    <h2 class="text-title"><strong>Our focus:</strong></h2>
-                    <div id="left-about">
-                        <div class="left-about-heading">
-                        <h2>Dance and drama workshops <i class="fas fa-chalkboard-teacher d-none d-sm-inline"></i></h2>
-                        <p>loremipsum</p>
-                        <h2>Performances <i class="fas fa-theater-masks d-none d-sm-inline"></i></h2>
-                        <p>loremipsum</p>
-                        </div>
-                    </div>
-                    <div id="right-about">
-                        <div class="right-about-heading">
-                        <h2>Teaching <i class="fas fa-bible d-none d-sm-inline"></i></h2>
-                        <p> What the Bible says about it</p>
-                        <h2>Dance classes <i class="fas fa-calendar-times d-none d-sm-inline"></i><span class="badge badge-info">NEW!</span></h2>
-                        <p>We offer recurring dance classes to the area where we are based</p>
-                        </div>
-                    </div>
-                    
-                    <div id="center-about">
-                        <div class="d-none d-sm-block">
-                            <div id="circle-container"> 
-                                <div id="circle-cover-bg"></div>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-        <!---------Quotes-->
+    </section>
 
         <!---------Footer-->
         <div class="row">  
@@ -101,10 +83,7 @@
                 </footer>
             </div> 
         </div>  
-        <!---------Footer--> 
-    </div>
-    </div>
-    
+        <!---------Footer-->    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
