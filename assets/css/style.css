@@ -9,14 +9,9 @@
 .footer-wrapper{
     display: flex !important;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     flex-direction: column;
 }
-
-
-
-
-
 /*.........................................Fonts */
 
 body {
@@ -298,10 +293,6 @@ iframe {
 	margin-top: 20px;
 }
 
-.text-center {
-    color: #fff;
-}
-
 label {
     display: inline-block;
     margin-bottom: .2rem;
@@ -340,17 +331,31 @@ label {
 footer {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    background-size: cover;
+    max-width: 100%;
     margin: 0;
+    padding: 0;
 }
 
+.footer-wrapper ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
 
+.footer-wrapper ul li{
+    margin-right: 10px;
+}
 
+.footer-wrapper ul li i {
+    color: white;
+}
 
-
-footer p {
-    font-size: 120%;
-    vertical-align: middle;
+.footer-wrapper p {
+    font-size: 130%;
+    text-align: right;
+    color: #e59400;
+    margin: 20px;
 }
 
 .social-networks {
