@@ -53,15 +53,6 @@ p {
 	z-index: 1;
 }
 
-.navbar-contact {
-	position: fixed;
-	margin-bottom: 20px;
-	border: 0;
-	width: 100%;
-	background-color: #525252;
-	z-index: 1;
-}
-
 .navbar .navbar-toggler {
 	border: 0;
 }
@@ -92,6 +83,8 @@ p {
 
 .navbar-dark .navbar-brand {
     color: #e59400;
+    font-size: 300%;
+    margin-left: 30px;
 }
 
 .navbar-nav li a {
@@ -177,7 +170,7 @@ p {
 }
 
 .blocktext {
-    width: 50%;
+    width: 80%;
     text-align: center;
     margin: auto;
 }
@@ -299,11 +292,11 @@ iframe {
 .right-hand-section p {
     color: #fff;
     font-size: 100%;
-    text-align: right;
+    text-align: center;
     margin-top: 150px;
 }
 
-.col-6, .right-hand-section {
+.col-12, .right-hand-section {
     flex: 100%;
     max-width: 95%;
 }
@@ -339,36 +332,6 @@ label {
 	color: white;
 	background-color: #e59400;
 	border-color: #525252;
-}
-
-/*.........................................Media queries*/
-
-.mobile-view {
-    display: none;
-}
-
-@media screen and (min-width: 700px) {
-    #cover-text, #cover-text h1, 
-    #left-about,
-    #our-focus,
-    #right-about {
-    display: block;
-    text-align: center;
-}
-
-@media(max-width: 870px) {
-    #circle-container {
-    display: none;
-    }
-}
-
-@media(min-width: 992px) {
-	.bg-color-contact-section .center-form {
-		padding-top: 30px;
-		min-height: 240px;
-		margin: 0 auto;
-		max-width: 50%;
-	}
 }
 
 /*.........................................Footer*/
@@ -421,4 +384,43 @@ li .list-inline-item {
     text-align: center;
     height: 20vh;
     margin-top: 50px;
+}
+
+/*.........................................Media queries*/
+
+.mobile-view {
+    display: none;
+}
+
+@media(min-width: 700px) {
+    #cover-text, 
+    #cover-text h1, 
+    #left-about,
+    #our-focus,
+    #right-about {
+    display: block;
+    text-align: center;
+}
+
+@media(max-width: 870px) {
+    #circle-container {
+    display: none;
+    }
+} 
+
+@media screen and (max-width: 1000px) {
+    .col-12 {
+        display: contents;
+        text-align: center;
+        margin-top: 30px;
+    }
+} 
+
+@media(min-width: 992px) {
+	.bg-color-contact-section .center-form {
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}
 }
