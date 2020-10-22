@@ -10,10 +10,8 @@ User stories:
 - I found the website fairly easy to manoeuvre. I liked the visual experience that it gave but at times found it a bit hard to read the text. There is definitely room for improvement but I think it was a good effort.
 
 Wireframes:
-- Desktop version <a href="../wireframes/desktop">Click here</a>
+- Desktop version <a href="./assets/wireframes/desktop">Click here</a>
 - Mobile version <a href="../wireframes/mobile">Click here</a>
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 
@@ -70,7 +68,7 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 - Logged into my github profile page and clicked on my project's name,
 - Clicked on settings,
 - Scrolled down the page to GitHub Pages,
-- Under Source, selected master branch and My First Milestone Project - AIM Website is published!
+- Under Source, selected master branch and  <a href="https://jesshperez.github.io/AIM-Website/">My First Milestone Project -AIM Website is published!</a>.
 
 
 ## Credits
